@@ -11,7 +11,7 @@ This repository contains a Streamlit web application that predicts car prices us
 ├── app.py                  # Main Streamlit application
 ├── requirements.txt        # Python dependencies
 ├── xgb_feature_names.pkl   # Pickle file containing feature names
-├── xgb_model.pkl           # Main XGBoost model
+├── xgb_model.json           # Main XGBoost model
 ├── xgb_poly_transformer.pkl # Polynomial features transformer
 ├── xgb_scaler_X.pkl        # Feature scaler
 └── xgb_scaler_y.pkl        # Target scaler
