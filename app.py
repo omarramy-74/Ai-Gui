@@ -48,7 +48,7 @@ def load_xgboost_model():
     
     try:
         model_data['xgb'] = XGBRegressor()
-        model_data['xgb'].load_model('xgb_model.json')
+        model_data['xgb'].load_model('xgb_model.pkl')
         model_data['xgb_scaler_X'] = joblib.load('xgb_scaler_X.pkl')
         model_data['xgb_scaler_y'] = joblib.load('xgb_scaler_y.pkl')
         model_data['xgb_feature_names'] = joblib.load('xgb_feature_names.pkl')
